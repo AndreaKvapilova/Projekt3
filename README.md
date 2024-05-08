@@ -35,7 +35,7 @@ If the link and file name are correct, a message that the file has been download
 python elections_scraper.py "https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=12&xnumnuts=7103" "prostejov.csv"
 </pre>
 4. download progress: Preparing beautiful soup, please wait. File prostejov.csv was successfully created.
-5. a preview of the output: modified data splitting into columns using separator in Excel[odkaz na csv soubor](/prostejov.csv)
+5. a preview of the output: modified data splitting into columns using separator in Excel[odkaz na csv soubor] (/prostejov.csv)
 
 ### Sample output:
 code,location,registred voters,issued envelopes,valid votes,Občanská demokratická strana,Řád národa - Vlastenecká unie,CESTA ODPOVĚDNÉ SPOLEČNOSTI,Česká str.sociálně demokrat.,Radostné Česko,STAROSTOVÉ A NEZÁVISLÍ,Komunistická str.Čech a Moravy,Strana zelených,"ROZUMNÍ-stop migraci,diktát.EU",Strana svobodných občanů,Blok proti islam.-Obran.domova,Občanská demokratická aliance,Česká pirátská strana,Referendum o Evropské unii,TOP 09,ANO 2011,Dobrá volba 2016,SPR-Republ.str.Čsl. M.Sládka,Křesť.demokr.unie-Čs.str.lid.,Česká strana národně sociální,REALISTÉ,SPORTOVCI,Dělnic.str.sociální spravedl.,Svob.a př.dem.-T.Okamura (SPD),Strana Práv Občanů,-
@@ -72,7 +72,7 @@ Pokud bude odkaz a název souboru v pořádku. Proběhne hláška, že soubor s 
 python elections_scraper.py "https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=12&xnumnuts=7103" "prostejov.csv"
 </pre>
 4. průběh stahování: Preparing beautiful soup, please wait. File prostejov.csv was successfully created.
-5. ukázka výstupu: provedena úprava rozdělení dat do sloupců pomocí oddělovače v excelu [odkaz na csv soubor](/prostejov.csv)
+5. ukázka výstupu: provedena úprava rozdělení dat do sloupců pomocí oddělovače v excelu [odkaz na csv soubor] (/prostejov.csv)
 
 ### částečný výstup:
 code,location,registred voters,issued envelopes,valid votes,Občanská demokratická strana,Řád národa - Vlastenecká unie,CESTA ODPOVĚDNÉ SPOLEČNOSTI,Česká str.sociálně demokrat.,Radostné Česko,STAROSTOVÉ A NEZÁVISLÍ,Komunistická str.Čech a Moravy,Strana zelených,"ROZUMNÍ-stop migraci,diktát.EU",Strana svobodných občanů,Blok proti islam.-Obran.domova,Občanská demokratická aliance,Česká pirátská strana,Referendum o Evropské unii,TOP 09,ANO 2011,Dobrá volba 2016,SPR-Republ.str.Čsl. M.Sládka,Křesť.demokr.unie-Čs.str.lid.,Česká strana národně sociální,REALISTÉ,SPORTOVCI,Dělnic.str.sociální spravedl.,Svob.a př.dem.-T.Okamura (SPD),Strana Práv Občanů,-
