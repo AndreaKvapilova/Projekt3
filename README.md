@@ -46,7 +46,7 @@ code,location,registred voters,issued envelopes,valid votes,Občanská demokrati
 
 # Volební scraper - Čestina
 Dobrý den, vítejte v programu na scrapování volebních výsledků z roku 2017. 
-Pro úspěšné spustění programu zadejte dva argumenty prvnéí je odkaz na územní celek a druhý název souboru, kde se mají výsledky uložit.
+Pro úspěšné spustění programu zadejte dva argumenty první je odkaz na územní celek a druhý název souboru, kde se mají výsledky uložit.
 Odkaz na územní celek získáte z této webové stránky [volby 2017](https://www.volby.cz/pls/ps2017nss/ps3?xjazyk=CZ).
 Výstup obsahuje informaci o kódu obce, jejím názvu, registrovaných voličích, vydaných obálek, počet platných hlasů, počet hlasů pro jednotlivé kandidující strany. 
 
