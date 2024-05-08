@@ -24,8 +24,9 @@ pip install -r requirements.txt
 The script is executed using the command line. Two arguments are required. The first argument is url address of the requested subdivision and the second argument is the name of the csv file where the results are exported. 
 <pre>
 python elections_scraper.py <territorial unit url> <file name with result>
+</pre>  
 If the link and file name are correct, a message that the file has been downloaded will be displayed.
-</pre>
+
 
 ## Example of the project
 1. selection on this website of the territorial unit and clicking on the link Choise of a municipality - Prostějov "https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=12&xnumnuts=7103"
