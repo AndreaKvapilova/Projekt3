@@ -9,7 +9,7 @@ discord: andreakvapilova
 Hello! Welcome to elections scraper held on 2017.
 Enter two arguments when the first is the territorial unit and the second
 is the name of the file to which the results will be saved.
-The link to the territorial unit can be obtained from this website[election 2017](https://www.volby.cz/pls/ps2017nss/ps3?xjazyk=EN).
+The link to the territorial unit can be obtained from this website [election 2017](https://www.volby.cz/pls/ps2017nss/ps3?xjazyk=EN).
 The output contains information about the municipality code and its name, registered voters, issued envelopes, valid votes and valid votes for each party.
 
 ## Instaling libraries
@@ -46,7 +46,7 @@ code,location,registred voters,issued envelopes,valid votes,Občanská demokrati
 # Volební scraper - Čestina
 Dobrý den, vítejte v programu na scrapování volebních výsledků z roku 2017. 
 Pro úspěšné spustění programu zadejte dva argumenty prvnéí je odkaz na územní celek a druhý název souboru, kde se mají výsledky uložit.
-Odkaz na územní celek získáte z této webové stránky[volby 2017](https://www.volby.cz/pls/ps2017nss/ps3?xjazyk=CZ).
+Odkaz na územní celek získáte z této webové stránky [volby 2017](https://www.volby.cz/pls/ps2017nss/ps3?xjazyk=CZ).
 Výstup obsahuje informaci o kódu obce, jejím názvu, registrovaných voličích, vydaných obálek, počet platných hlasů, počet hlasů pro jednotlivé kandidující strany. 
 
 ## Instalace knihoven
