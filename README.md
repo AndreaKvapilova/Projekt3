@@ -23,7 +23,7 @@ pip install -r requirements.txt
 ## Running programm
 The script is executed using the command line. Two arguments are required. The first argument is url address of the requested subdivision and the second argument is the name of the csv file where the results are exported. 
 <pre>
-python elections_scraper.py <territorial unit url> <file name with result>
+python elections_scraper.py "territorial unit url" "file name with result"
 </pre>  
 If the link and file name are correct, a message that the file has been downloaded will be displayed.
 
@@ -61,7 +61,7 @@ pip install -r requirements.txt
 ## Spuštění projektu
 Spuštění skriptu se provádí pomocí příkazového řádku. Povinné jsou dva argumenty, první je url adresa požadovaného územního celku a druhý argument název souboru s příponou csv, kam se mají stažené výsledky exportovat.
 <pre>
-python nazev_souboru <url odkaz uzemniho celku> <nazev_souboru_s_vysledky>
+python nazev_souboru "url odkaz uzemniho celku" "nazev_souboru_s_vysledky"
 </pre>
 Pokud bude odkaz a název souboru v pořádku. Proběhne hláška, že soubor s názvem byl stažený.
 
