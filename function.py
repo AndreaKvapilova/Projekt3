@@ -4,10 +4,10 @@ author: Andrea Kvapilová
 email: a.ndrea@centrum.cz 
 discord: andreakvapilova
 """
+import re
+import requests
 from bs4 import BeautifulSoup as bs
 from urllib.parse import urljoin
-import requests
-import re
 
 def get_html_content(url:str):
     '''
@@ -29,7 +29,10 @@ def get_html_content(url:str):
         print("Unable to download website. Status code:{response.status_code}")
         return None
         
-def create_bs_findall_list(soup, element:str, atribut_name:str, atribut_value:str) -> list:
+def create_bs_findall_list(soup,
+                           element:str,
+                           atribut_name:str,
+                           atribut_value:str) -> list:
     '''
     The function creates from beautiful soup object a list with searched elements using attribut name.
 
