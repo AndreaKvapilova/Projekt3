@@ -1,8 +1,8 @@
+import csv
+import sys
 import threading
 from queue import Queue
 import function
-import csv
-import sys
 
 def main():
     #control arguments: the number -> arg[0] - script name, arg[1] - territorial unit url, arg[2] - name of csv file
